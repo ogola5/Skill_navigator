@@ -1,0 +1,526 @@
+/* html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; 
+  overflow-x: hidden; 
+}
+
+.App {
+  background-image: url('./background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+
+.App-header {
+  width: 100%;
+  padding: 20px;
+  box-shadow: none; /* Make sure no shadow is applied *
+  background: transparent; /* Ensure no background color is applied *
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  gap: 40px;
+  align-items: flex-end;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300; /* Light font weight *
+  font-family: Arial, sans-serif; /* Change to a suitable light font if necessary *
+  font-size: 16px; /* Optional: adjust font size *
+  color: #f0f0f0; /* Light color for the text, you can tweak this for contrast *
+  display: flex;
+  gap: 20px;
+}
+.navbar a:hover {
+  color: #4982eb; /* Optional: make the links change color on hover *
+}
+.content {
+  display: flex;
+  justify-content: space-between; /* Adjusts space between sections *
+  align-items: center;
+  width: 80%;  /* Reduced the width for balance *
+}
+
+.left-section {
+  flex: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigator-img {
+  width: 750px;
+  height: 750px;
+}
+
+.login-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.login-box {
+  background-color: #fff; /* White background for contrast 
+  padding: 30px; 
+  border-radius: 15px; 
+  width: 350px; 
+  text-align: center; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  border: 2px solid #f0f0f0; 
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; 
+}
+
+
+.login-box label {
+  display: block;
+  text-align: left; 
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #666; 
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  font-size: 16px; 
+  background-color: #f5f5f5; 
+}
+
+.login-box input:focus {
+  border-color: #4982eb; 
+  outline: none;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #333; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #4982eb; 
+
+.login-box p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.login-box a {
+  color: #4982eb; 
+  text-decoration: none;
+}
+
+.login-box a:hover {
+  text-decoration: underline; 
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socials img {
+  width: 24px;
+  height: 24px;
+}
+
+.footerlabel {
+  color: #f0f0f0;
+} *//* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* Navbar styling */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 15px 30px; */
+  background-color: #007bff;
+  position: fixed;
+  top: 0;
+  /* margin-bottom: 20%; */
+}
+
+.navbar .logo {
+  width: 150px;
+}
+
+ .logo {
+  color: #ffffff;
+ }
+
+.navbar .nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.navbar .nav-links a:hover {
+  background-color: #0056b3;
+}
+
+/* Hero Section */
+.hero-section {
+  margin-top: 3%;
+  text-align: center;
+  padding: 100px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  background-image: url('./background.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero-cta .cta-button {
+  background-color: #28a745;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+}
+
+.hero-cta .cta-button:hover {
+  background-color: #218838;
+}
+
+/* How It Works Section */
+.how-it-works {
+  padding: 50px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.steps-container .step {
+  flex: 1;
+  background-color: #007bff;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.steps-container .step:hover {
+  transform: translateY(-10px);
+}
+
+.steps-container .step .icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.steps-container h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.searchControl {
+  display: flex;
+  justify-content: space-between;
+  gap: 90;
+}
+/* Search Bar */
+.job-search {
+  /* background-color: #f8f9fa; */
+  padding: 50px 20px;
+  text-align: center;
+
+  
+}
+
+.job-search h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.search-bar {
+  display: inline-flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 10px;
+
+  
+}
+
+.search-bar input {
+  padding: 15px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar .search-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.search-bar .search-button:hover {
+  background-color: #218838;
+}
+
+/* Featured Jobs */
+.featured-jobs {
+  padding: 50px 20px;
+  /* background-color: #ffffff; */
+  color: black;
+}
+
+.featured-jobs h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.job-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.job-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.job-card:hover {
+  transform: translateY(-10px);
+}
+
+.job-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.job-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.job-card .job-cta {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.job-card .job-cta:hover {
+  background-color: #0056b3;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+  color: black;
+}
+
+.testimonials h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.testimonial {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.testimonial p {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.testimonial h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  padding: 30px 50px;
+  background-color: #343a40;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+footer .footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+footer .footer-links a:hover {
+  color: #007bff;
+}
+
+/* Social Media Icons */
+.social-media {
+  display: flex;
+  gap: 20px;
+}
+
+.social-media a {
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #007bff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar .nav-links {
+    flex-direction: column;
+  }
+
+  .steps-container {
+    flex-direction: column;
+  }
+
+  .job-list {
+    flex-direction: column;
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+  }
+}

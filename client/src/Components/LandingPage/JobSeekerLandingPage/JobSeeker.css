@@ -1,0 +1,170 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    padding: 0;
+  } */
+  
+  .job-seeker-landing-page {
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #4A90E2;
+    color: white;
+    padding: 20px;
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 20;
+  }
+  
+  .nav-buttons button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-button {
+    background-color: black;
+    color: white;
+  }
+  
+  .logout-button {
+    background-color: black;
+    color: white;
+    padding:10px 25px;
+    border-radius: 5px;
+  }
+  
+  /* Main Content Styles */
+  main {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #E8E8E8;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .container-seeker {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* CV Development Styles */
+  .cv-development {
+    flex: 3;
+    margin-right: 20px;
+  }
+  .cv-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cv-section, .skill-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .chatbot-section {
+    margin-top: 10px;
+  }
+  .chatbot-button{
+    background-color: black;
+    color:white;
+    border-radius: 5px ;
+    padding:10px 25px;
+  }
+  
+  .cv-button, .skill-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+  }
+  .skill-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Job Links Styles */
+  .job-section {
+    flex: 1;
+    margin-left: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job-button {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4A90E2;
+    color: white;
+  }
+  
+  .result {
+    margin-bottom: 20px; /* Space between each result */
+  }
+  
+  .box {
+    background-color: #f9f9f9; /* Light background to differentiate the box */
+    border: 1px solid #ccc; /* Border for the box */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside the box */
+    min-height: 50px; /* Minimum height to show when empty */
+    overflow: auto; /* Ensure it expands as content is added */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for the box effect */
+    transition: all 0.3s ease-in-out; /* Smooth transition for changes */
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .response {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .btns {
+    color: aliceblue;
+    background-color: #4A90E2;
+    padding: 5px 15px;
+    margin-top:5px;
+  }
