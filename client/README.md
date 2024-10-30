@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Skills Navigator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Democratizing Job Opportunities in Sub-Saharan Africa
 
-## Available Scripts
+Skills Navigator is a platform designed to address the specific job-market challenges faced by informal workers in Sub-Saharan Africa. Unlike conventional job platforms that focus on white-collar positions, Skills Navigator emphasizes matching skills with jobs, particularly in the informal sector, helping to bridge the gap for workers with region-specific expertise.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Problem Statement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Sub-Saharan Africa’s job platforms often overlook informal jobs and region-specific skills, leading to mismatched job opportunities and limited visibility for skilled workers. Common issues include:
+- Inaccurate job descriptions
+- Poor skill assessments
+- High unemployment due to these mismatches
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Solution
 
-### `npm test`
+Skills Navigator aims to solve these issues by:
+- **Generating Accurate Job Descriptions**: Improving employer descriptions to enhance job fit.
+- **Skill-Based Matching**: Utilizing AI-driven technology for precise skill extraction and job matching.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technology Stack
 
-### `npm run build`
+- **Database**: (Database details would go here)
+- **AI and Machine Learning**: Skill extraction and matching algorithm based on the ESCO taxonomy for enhanced accuracy.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## User Flow
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Job Seeker Has a CV**:
+   - If yes, engage with Compass Chatbot to get job matches.
+   - If no, the platform can generate a CV and provide a list of possible jobs.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Target Market
 
-### `npm run eject`
+Skills Navigator primarily targets:
+- Informal sector workers in Sub-Saharan Africa
+- Gig economy participants, such as freelancers and part-time workers
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Market Trends
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Growth of the Gig Economy**: Increasing demand for freelance and informal job matching.
+- **Digital Transformation**: Push for digital job markets across Africa.
+- **Shift to Skills-Based Hiring**: Growing focus on skills rather than degrees in hiring processes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Competitive Landscape
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Main competitors include:
+- **Fuzu**
+- **Brighter Monday**
+- **Corporate Staffing**
 
-## Learn More
+These platforms focus on white-collar jobs and formal education, while Skills Navigator prioritizes informal sector workers, making it a unique solution for this underserved segment.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Scalability
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Skills Navigator’s growth strategy includes:
+1. **Regional Expansion**: Expanding across Sub-Saharan Africa, targeting countries with similar job market needs.
+2. **Global Freelancing Opportunities**: Connecting informal workers to international employers by emphasizing skill over location.
+3. **Technology Scaling**: The AI-driven platform can grow to handle increasing user data, continuously improving through machine learning.
 
-### Code Splitting
+## Current Progress
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Milestones Achieved**:
+1. **MVP Development**: Initial platform with CV upload and AI-based skill extraction.
+2. **AI Matching Algorithm**: Developed using ESCO taxonomy for accurate job-skill matching.
 
-### Analyzing the Bundle Size
+## Team
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Frontend**: Eliud
+- **Backend**: [Other team members could be listed here]
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For more information or inquiries, please contact the development team at [contact email or link].
