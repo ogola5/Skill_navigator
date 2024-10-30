@@ -67,7 +67,8 @@ Skills Navigator’s growth strategy includes:
 ## Team
 
 - **Frontend**: Eliud
-- **Backend**: [Other team members could be listed here]
+- **Backend**: Ogola evance
+- **UI/UX**:Seth makori,Elina Kadzo,Khadija uzeir
 
 ---
 
